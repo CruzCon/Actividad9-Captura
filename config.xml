@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.camera1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" 
+<widget id="io.cordova.video" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" 
   xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <preference name="phonegap-version" value="cli-9.0.0" />
-  <name>Captura de video PhoneGap
+  <name>VIDEO PhoneGap
 </name>
   <description>
       Esta es una app de PhoneGap.
@@ -12,11 +12,11 @@
       Cruz Contreras Carranza
   </author>
   <content src="index.html" />
-  <plugin name="cordova-plugin-dialogs"/>
+  <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
+  <plugin name="cordova-plugin-dialogs"/> 
   <plugin name="cordova-plugin-device"/>
-  <plugin name="cordova-plugin-device-motion"/>
-  <plugin name="cordova-plugin-device-camera"/>
-   <plugin name="cordova-plugin-media-capture"/>
+  <plugin name="cordova-plugin-camera"/>
+  <plugin name="cordova-plugin-media-capture" spec="~3.0.3" />
   <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
